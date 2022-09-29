@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/*  
+    Font size (name and stats): 18px
+    font-family: 'Kumbh Sans', sans-serif;
+*/
+
+:root{
+
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+    --Dark-gray: hsl(0, 0%, 59%);
+    --background-card-color: rgb(255,255,255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto 0;
+
+    background-color: var(--Dark-cyan);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_container{
+
+    width: 330px;
+    height: 380px;
+    position: relative;
+    padding-bottom: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+    border-radius: 20px 20px 20px 20px;
+
+    background-color: var(--background-card-color);
+
+}
+
+.cover_profile{
+    height: 140px;
+    width: 100%;
+}
+
+.cover_profile_image{
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.image_profile_container{
+    position: relative;
+    top: -65px;
+
+    border-radius: 50%;
+    border: 5px solid var(--background-card-color);
+    overflow: hidden;
+
+}
+
+.image_profile{
+    display: block;
+}
+
+.name_profile_txt{
+
+    position: relative;
+    top: -60px;
+
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+
+}
+
+.age_txt{
+    
+    font-weight: 400;
+    color: var(--Dark-grayish-blue);
+
+}
+
+.City_txt{
+
+    position: relative;
+    top: -60px;
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--Dark-grayish-blue);
+
+}
+
+.list_stats{
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.stats_style{
+    margin: 0 20px 0;
+
+    font-size: 0.6rem;
+    color: var(--Dark-gray);
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.number_stat_txt{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+    letter-spacing: normal;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    display: none;
+    
+}
+.attribution a { color: hsl(228, 45%, 44%); }
